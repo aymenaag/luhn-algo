@@ -19,8 +19,7 @@ def verify_card_number(card_number):
 
 def main():
     card_number =0
-    print('enter your card number')
-    input(card_number)
+    card_number=input('enter your card number'card_number)
     card_translation = str.maketrans({'-': '', ' ': ''})
     translated_card_number = card_number.translate(card_translation)
 
